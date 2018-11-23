@@ -128,9 +128,15 @@ input[type=date], input[type=datetime-local], input[type=email], input[type=numb
     line-height: 60px;
     transition: all 0.6s;
     color: #555;
+    font-weight: bold;
 }
 .small .navbar-brand {
     margin-top: .5rem;
+}
+
+.nav
+{
+    z-index: 1999;
 }
 
 .nav ul li.active{
@@ -350,7 +356,7 @@ div.panel.show {
 
 
 .main_joinus_area{
-    background: url(../img/joinbg.jpg) no-repeat top center;
+    background: url(../images/Partenaire-1600x800.jpg) no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
 }

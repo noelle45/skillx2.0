@@ -6,22 +6,22 @@
     font-family: 'Homemade Apple', cursive;
 }
 
-.section_qui_image
-{
-    margin-top: 100px;
-    height: 350px;
-    background-image: url(images/nos-valeurs.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: top;
-    background-size: cover;
-}
+
+@media screen and (max-width: 425px) {
+      .section_services_image, .blop, .counter, .main_joinus_area, .tag, .logo_footer, video {
+        display: none;
+      }
+    }
+@media screen and (min-width: 425px) {
+.entete-image {
+        display: none;
+      }
+    }
 
 .section_services_image
 {
-   
     height: 350px;
-    background-image: url(images/business-innovation-money-icon-40218.jpeg);
+    background-image: url(images/conseil.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: top;
@@ -37,32 +37,19 @@
 .main_team_content
 {background-color: none;}
 
-.section_joinus_image
-{
-    margin-top: 100px;
-    height: 350px;
-    background-image: url(images/contact.jpeg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: top;
-    background-size: cover;
-}
-
-.section_lateam_image
-{
-    margin-top: 100px;
-    height: 350px;
-    background-image: url(images/team.jpeg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: top;
-    background-size: cover;
-}
 
 .valeurs
 {
     margin-bottom: 100px;
-    width: 50%;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.valeurs_petit
+{
+    margin-bottom: 100px;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -95,8 +82,8 @@ video
 {
     position: absolute;
     margin-left: 60%;
-    margin-top: 7%;
-    z-index: 1999;
+    margin-top: 45%;
+    z-index: 999;
 }
 
 h1
@@ -104,9 +91,14 @@ h1
     font-size: 25px;
 }
 
+h2
+{
+    font-size: 23px;
+}
+
 .cardjoin
 {
-    width: 50%;
+    width: 70%;
     margin:auto;
     padding: 20px;
     margin-top: 50px;
