@@ -1,0 +1,110 @@
+.section_qui_image
+{
+    margin-top: 100px;
+    height: 350px;
+    background-image: url(images/nos-valeurs.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+}
+
+.section_services_image
+{
+    margin-top: 50px;
+    height: 350px;
+    background-image: url(images/business-innovation-money-icon-40218.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    background-position: bottom;
+    margin-bottom: 100px;
+}
+
+.section_joinus_image
+{
+    margin-top: 100px;
+    height: 350px;
+    background-image: url(images/contact.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+}
+
+.section_lateam_image
+{
+    margin-top: 100px;
+    height: 350px;
+    background-image: url(images/team.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+}
+
+.valeurs
+{
+    margin-bottom: 250px;
+}
+
+.team
+{
+    height: 200px;
+    width: 200px;
+    box-shadow: 10px 10px 12px 10px gray;
+}
+
+.single_team
+{
+    height: 350px;
+    padding-top: 20px;
+}
+
+video
+{
+    width: 1600px;
+    height: 900px;
+}
+
+.blop
+{
+    height: 200px;
+}
+
+.blop_div
+{
+    text-align: center;
+}
+
+h1
+{
+    font-size: 25px;
+}
+
+.logo
+{
+    margin-top: 10px;
+}
+
+h3
+{
+    font-size: 18px;
+}
+
+p
+{
+    font-size: 15px;
+}
+
+#footer, #services
+{
+    margin-top:200px;
+}
+
+hr
+{
+    border: none;
+    border-bottom: 1px solid #4267b2;
+}
