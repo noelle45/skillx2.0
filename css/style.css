@@ -332,7 +332,7 @@ div.panel.show {
 }
 .main_service_area .jumbotron{
     padding:2rem .6rem;
-    height: 600px;
+    height: 650px;
 }
 .main_service_area .single_service{
     transition: all 0.3s;
@@ -430,9 +430,12 @@ div.panel.show {
 ============================================================*/
 
 .main_counter_area{
-    background: url(../img/counterbg.jpg) no-repeat top center;
+    background: url(../images/team.jpeg) no-repeat top center;
     background-size: cover;
     overflow: hidden;
+    height: 350px;
+    background-attachment: fixed;
+    background-position: center;
 }
 .main_counter_area .main_counter_content{}
 .main_counter_area .main_counter_content .single_counter{
