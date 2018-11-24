@@ -6,23 +6,9 @@ Authore link : http://bootstrapthemes.co
 */
 html,
 body{
-    font-size:18px;
     background:#fff; 
-    font-family: "Roboto";
-    font-weight: 300;
 }
-h1,
-h2,
-h3,
-h4,
-h5{
-    text-transform: uppercase;
-}
-h1 {
-    font-size: 5rem;
-    line-height: 6.5rem;
-    color: #fff;
-}
+
 h2 {
     font-size: 2.222rem;
     line-height: 2.5rem;

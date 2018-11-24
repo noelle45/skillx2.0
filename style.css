@@ -7,12 +7,12 @@
 }
 
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
       .section_services_image, .blop, .counter, .main_joinus_area, .tag, .logo_footer, video {
         display: none;
       }
     }
-@media screen and (min-width: 425px) {
+@media screen and (min-width: 769px) {
 .entete-image {
         display: none;
       }
@@ -89,11 +89,24 @@ video
 h1
 {
     font-size: 25px;
+    margin-top: -50px;
+    width: 100%
 }
 
 h2
 {
     font-size: 23px;
+}
+
+.p_entete
+{
+    text-align: left;
+    margin-top: ;
+}
+
+.logo-entete
+{
+    margin-top: -200px;
 }
 
 .cardjoin
