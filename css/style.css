@@ -26,7 +26,7 @@ h4 {
     background-color: #fff!important;
 }
 .overlay{
-    background: rgba(0, 0, 0, 0.5);
+  /* background: rgba(0, 0, 0, 0.5); */
 }
 /*==========================================
 PRE LOADER 
@@ -120,7 +120,7 @@ input[type=date], input[type=datetime-local], input[type=email], input[type=numb
 }
 
 .nav ul li.active{
-    background-color:rgba(0, 0, 0, 0.0);
+    /*background-color:rgba(0, 0, 0, 0.0);*/
 }
 .navbar{
     padding: 0 1rem;
@@ -313,8 +313,8 @@ div.panel.show {
 ============================================================*/
 .main_service_area{}
 .main_service_area .col-md-4:hover .single_service{
-    background: #3f444a;
-    color:#fff;
+    /*background-color: rgba(0, 0, 0, 0.5);*/
+    color:#000;
 }
 .main_service_area .jumbotron{
     padding:2rem .6rem;
@@ -416,21 +416,17 @@ div.panel.show {
 ============================================================*/
 
 .main_counter_area{
-    background: url(../images/team.jpeg) no-repeat top center;
+    background: url(../img/joinbg2.jpg) no-repeat top center;
     background-size: cover;
     overflow: hidden;
-    height: 350px;
-    background-attachment: fixed;
-    background-position: center;
 }
 .main_counter_area .main_counter_content{}
 .main_counter_area .main_counter_content .single_counter{
-    background: rgba(66, 103, 178, 0.85);
+    background: rgba(66, 103, 178, 0.5);
 }
 .main_counter_area .main_counter_content .single_counter i{
     font-size:2rem;
 }
-
 /*======================================================================
                 Team Section style
 ========================================================================*/
@@ -502,7 +498,7 @@ div.panel.show {
 }
 
 .single_mixi_portfolio .single_portfolio_text h3{
-    text-transform: capitalize !important;
+    text-transform: none !important;
     margin-bottom: 0;
     padding-top:1rem;
 }

@@ -32,19 +32,34 @@
 .section_valeurs_image
 {
     height: 350px;
-    background-image: url(images/valeurs.png);
+    background-image: url(images/valeursfond2.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: bottom;
     background-size: contain;
     background-position: bottom;
-    margin-bottom: 150px;
+}
+
+.section_team_image
+{
+    height: 350px;
+    background-image: url(images/team.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: cover;
+    background-position: bottom;
     margin-top: 150px;
 }
 
 .card-portfolio
 {
     padding: 40px;
+}
+
+.main_team_content
+{
+    margin-top: -200px;
 }
 
 .container-services
@@ -58,7 +73,6 @@
 
 .valeurs
 {
-    margin-bottom: 100px;
     width: 70%;
     margin-left: auto;
     margin-right: auto;
@@ -76,7 +90,7 @@
 {
     height: 200px;
     width: 200px;
-    box-shadow: 10px 10px 12px 10px gray;
+    box-shadow: 6px 6px 10px 6px rgba(0, 0, 0, 0.5);
 }
 
 .single_team
@@ -107,24 +121,30 @@ video
 h1
 {
     font-size: 25px;
-    margin-top: -50px;
     width: 100%
 }
 
 h2
 {
-    font-size: 23px;
+    font-size: 43px;
+}
+
+.h2-valeur
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.h2-valeurs
+{
+    font-size: 20px;
+    margin-top: -50px;
 }
 
 .p_entete
 {
     text-align: left;
     margin-top: ;
-}
-
-.logo-entete
-{
-    margin-top: -200px;
 }
 
 .cardjoin
@@ -143,7 +163,7 @@ h2
 h3
 {
     font-size: 18px;
-    text-transform: capitalize;
+    text-transform: none;
 }
 
 p
@@ -151,7 +171,7 @@ p
     font-size: 15px;
 }
 
-#footer, #services
+hr
 {
-    margin-top:200px;
+    margin-bottom: 50px;
 }
