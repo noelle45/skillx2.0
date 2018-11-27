@@ -1,9 +1,3 @@
-/* 
-
-Authore Name : Bootstrapthemes
-Authore link : http://bootstrapthemes.co
-
-*/
 html,
 body{
     background:#fff; 
@@ -508,7 +502,7 @@ div.panel.show {
 }
 
 .single_mixi_portfolio .single_portfolio_text h3{
-    text-transform: lowercase !important;
+    text-transform: capitalize !important;
     margin-bottom: 0;
     padding-top:1rem;
 }
