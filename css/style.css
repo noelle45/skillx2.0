@@ -318,7 +318,7 @@ div.panel.show {
 }
 .main_service_area .jumbotron{
     padding:2rem .6rem;
-    height: px;
+    height: ;
 }
 .main_service_area .single_service{
     transition: all 0.3s;
@@ -525,7 +525,7 @@ div.panel.show {
     height: 100%;
     transition: .5s;
     opacity: 0;
-    padding-top: 30%;
+    padding-top: 0%;
 }
 .mixi_portfolio_overlay a i{
     font-size: 1rem;
