@@ -318,7 +318,7 @@ div.panel.show {
 }
 .main_service_area .jumbotron{
     padding:2rem .6rem;
-    height: 650px;
+    height: px;
 }
 .main_service_area .single_service{
     transition: all 0.3s;

@@ -29,6 +29,19 @@
     background-position: bottom;
 }
 
+.section_valeurs_image
+{
+    height: 350px;
+    background-image: url(images/valeurs.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: contain;
+    background-position: bottom;
+    margin-bottom: 150px;
+    margin-top: 150px;
+}
+
 .container-services
 {
     margin-top: -200px;
