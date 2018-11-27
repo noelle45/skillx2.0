@@ -425,7 +425,7 @@ div.panel.show {
 }
 .main_counter_area .main_counter_content{}
 .main_counter_area .main_counter_content .single_counter{
-    background: rgba(236, 72, 72, 0.5);
+    background: rgba(66, 103, 178, 0.85);
 }
 .main_counter_area .main_counter_content .single_counter i{
     font-size:2rem;
