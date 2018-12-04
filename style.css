@@ -118,6 +118,11 @@ video
     z-index: 999;
 }
 
+input
+{
+    height: 10px;
+}
+
 h1
 {
     font-size: 25px;

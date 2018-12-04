@@ -175,7 +175,9 @@ Conseils <br> stratégie <br> gestion de projets</p>
 <br><h2>SkillX</h2>
 <h3>Innovating thinking</h3>
 <h4>Innover pour accompagner la transformation numérique des entreprises d’aujourd’hui et de demain.</h4>
-<p>SkillX est une entreprise créée en 2018 dans le nord de la France, notre mission est d'accompagner les entreprises dans la transformation numérique de leurs systèmes d'information à travers des services et expertises rares.
+<p>SkillX est une entreprise créée en 2018 dans le nord de la France.<br>
+Notre mission : <br>
+Accompagner les entreprises dans la transformation numérique de leurs systèmes d'information à travers des services et expertises rares.
 L'innovation et l'exploration font parti de l'ADN de l'entreprise, nous nous engageons sur des technologies innovantes et disruptives. Innovative Thinking,  faire différemment pour apporter de la valeur grâce à des technologies innovantes.</p>
 </div>
 </div>
@@ -497,7 +499,7 @@ cursus malesuada facilisis.Lorem ipsum dolor sit amet, consectetur facilisis.</p
         Chez SkillX les coéquipiers grandissent autant sur les savoirs faire (techniques, organisationnels,...) que sur le développement personnel.<br><br> 
     
 <h2 style="text-align: center">Rejoins notre équipe</h2>
-<p class="font-cursive" style="text-align: center;font-size: 40px">Hello!</p> <br><br>
+<!-- <p class="font-cursive" style="text-align: center;font-size: 40px">Hello!</p> --> <br><br>
 <p style="text-align:left; font-size: 16px"> Tu es sympa et tu as beaucoup d’énergie<br>
 - Tu aimes les challenges et ne renonces jamais!<br>
 - Tu es fondamentalement optimiste<br>
@@ -575,14 +577,16 @@ Chez &nbsp; &nbsp;<strong>SkillX</strong>&nbsp; &nbsp;, on pense que la performa
 
 <!-- FOOTER -->
 <section id="footer" class="footer">
-<h2>Nous contacter</h2>
+<div class="row w100">
+<br/><h2 style="text-align: center">Nous contacter</h2>
+</div>
 <div id="contact" class="contact"> </div>
 <div class="container">
 <div class="row">
 <div class="main_footer_area white-text">
     
 <!-- LOGO + RESEAUX SOCIAUX -->
-<div class="col-md-3">
+<div class="col-md-4">
 <div class="single_f_widget wow fadeInUp logo_footer">
 <img style="margin-top: 20px;" src="images/logo-argente-socle.png" alt="logo"/>
 <div class="single_f_widget_text">
@@ -594,10 +598,24 @@ Chez &nbsp; &nbsp;<strong>SkillX</strong>&nbsp; &nbsp;, on pense que la performa
 <a href="#!" ><i class="fa fa-linkedin"></i></a>
 </div>
 </div>
+<div class="single_f_widget m-t-3 wow fadeInUp">
+<h4 class="text-lowercase">Tags</h4>
+<div class="single_f_widget_text f_tags">
+<a href="#!">Expertise</a>
+<a href="#!">Block chain</a>
+<a href="#!">crypto actifs</a>
+<a href="#!">Evangelist</a>
+<a href="#!">Conseil</a>
+<a href="#!">Stratégie</a>
+<a href="#!">Professionel</a>
+<a href="#!">Gestion</a>
+<a href="#!">Projets</a>
+</div>
+</div>
 </div>
 </div>
 <!-- COORDONNES -->
-<div class="col-md-3">
+<div class="col-md-4">
 <div class="single_f_widget m-t-3 wow fadeInUp">
 <h4 class="text-lowercase">Contact</h4>
 <div class="single_f_widget_text f_reatures">
@@ -609,22 +627,27 @@ Chez &nbsp; &nbsp;<strong>SkillX</strong>&nbsp; &nbsp;, on pense que la performa
 </div>
 </div>
 </div>
-<!-- TAGS -->
-<div class="col-md-3 mb-5 tag">
-<div class="single_f_widget m-t-3 wow fadeInUp">
-<h4 class="text-lowercase">Tags</h4>
-<div class="single_f_widget_text f_tags">
-<a href="#!">expertise</a>
-<a href="#!">Block chain</a>
-<a href="#!">crypto actifs Evangelist</a>
-<a href="#!">Conseil</a>
-<a href="#!">stratégie</a>
-<a href="#!">professionel</a>
-<a href="#!">gestion de projets</a>
+<!-- ========== form ========== -->
+<div class="col-md-3 pl-5">
+<div class="row"><br><br>
+<h4 class="text-lowercase">Formulaire de contact</h4>
+<form method="post" action="traitement.php" class="mb-5 ml-5">
+
+<input type="text" name="Nom" id="nom" placeholder="Nom" size="30" maxlength="50" required /><br/><br/>
+
+<input type="text" name="Prenom" id="prenom" placeholder="Prénom" size="30" maxlength="50" required /><br/><br/>
+
+<input type="text" name="Telephone" id="telephone" placeholder="Téléphone" size="30" maxlength="50" required /><br/><br/>
+
+<input type="text" name="email" id="email" placeholder="Email" size="30" maxlength="50" required /><br/><br/>
+
+<textarea placeholder="Votre message" class="form-control" id="exampleFormControlTextarea1" rows="20"></textarea>					
+<button type="submit" class="btn btn-danger">Envoyer</button>
+</form>
+    <br/>
 </div>
 </div>
-</div>
-<!-- // TAGS -->
+<!-- ========== /form ========== -->
 </div> <!-- // MAIN FOOTER -->
 </div> <!-- // ROW -->
 </div> <!-- // CONTAINER -->
@@ -635,9 +658,8 @@ Chez &nbsp; &nbsp;<strong>SkillX</strong>&nbsp; &nbsp;, on pense que la performa
 <div class="row">
 <div class="col-sm-12 col-xs-12">
 <div class="copyright_text m-t-2 text-xs-center">
-<p class="wow zoomIn" data-wow-duration="1s">Made with <i class="fa fa-heart"></i> by <a href="mailto:contact@noelle-monge.fr"> @noelle</a> 2018. All Rights Reserved <!-- Button trigger modal -->
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModalLong">
+<p class="wow zoomIn" data-wow-duration="1s">Made with <i class="fa fa-heart"></i> by <a href="mailto:contact@noelle-monge.fr"> @noelle</a> 2018. All Rights Reserved <!-- Button trigger modal --><br/>
+<button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModalLong">
 Mentions légales
 </button>
 </p>
