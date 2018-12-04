@@ -175,15 +175,6 @@ input[type=date], input[type=datetime-local], input[type=email], input[type=numb
     margin-bottom: 0;
 } 
 
-.panel-heading.bgg.bg{
-    background:url(../img/accordion.png) no-repeat right 7px #4267b2;
-}
-.panel-heading.bgg1.bg{
-    background:url(../img/accordion.png) no-repeat right 7px #4267b2;
-}
-.panel-heading.bgg2.bg{
-    background:url(../img/accordion.png) no-repeat right 7px #4267b2;
-}
 .single_about .panel-title{
     width: 100%;
 }

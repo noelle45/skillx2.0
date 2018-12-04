@@ -105,6 +105,11 @@ video
     height: 900px;
 }
 
+.recrutement
+{
+    margin-top: 100px;
+}
+
 .blop
 {
     height: 160px;
@@ -113,9 +118,15 @@ video
 .blop_div
 {
     position: absolute;
-    margin-left: 60%;
-    margin-top: 65%;
+    margin-left: 75% ;
+    margin-top: ;
     z-index: 999;
+}
+
+.form-control-file
+{
+    height: 30px;
+    padding-bottom: 25px;
 }
 
 input
