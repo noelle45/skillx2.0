@@ -114,7 +114,7 @@ video
 {
     position: absolute;
     margin-left: 60%;
-    margin-top: 45%;
+    margin-top: 65%;
     z-index: 999;
 }
 
@@ -126,7 +126,7 @@ h1
 
 h2
 {
-    font-size: 43px;
+    font-size: 35px;
 }
 
 .h2-valeur
