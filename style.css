@@ -24,9 +24,18 @@
     background-image: url(images/conseil.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: top;
     background-size: cover;
     background-position: bottom;
+}
+
+.section_recrutement_image
+{
+    height: 350px;
+    background-image: url(images/pexels-photo-796602.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: cover;
 }
 
 .section_valeurs_image
@@ -37,7 +46,6 @@
     background-attachment: fixed;
     background-position: bottom;
     background-size: contain;
-    background-position: bottom;
 }
 
 .section_team_image
@@ -48,7 +56,6 @@
     background-attachment: fixed;
     background-position: bottom;
     background-size: cover;
-    background-position: bottom;
     margin-top: 150px;
 }
 
@@ -127,11 +134,6 @@ video
 {
     height: 30px;
     padding-bottom: 25px;
-}
-
-input
-{
-    height: 10px;
 }
 
 h1
