@@ -159,6 +159,11 @@ h2
     margin-top: -50px;
 }
 
+h4
+{
+    font-size: 20px;
+}
+
 .p_entete
 {
     text-align: left;
@@ -167,9 +172,9 @@ h2
 
 .cardjoin
 {
-    width: 70%;
+    width: 50%;
     margin:auto;
-    padding: 20px;
+    padding: 5px;
     margin-top: 50px;
 }
 
