@@ -24,7 +24,9 @@
 						  Tel: '.$_POST['tel'].'<br>
 						  E-mail: '.$_POST['email'].'<br>
 						  Sujet: '.$_POST['subject'].'<br><br>
-						  Message:<br> '.$_POST['message'].'</div>';
+						  Message:<br> '.$_POST['message'].'</div>
+                          piece-jointe:'.$_POST['pj'];
+                          
      
     if(mail($destinataire, $objet, $message, $headers))
     {

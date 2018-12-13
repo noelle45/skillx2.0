@@ -6,6 +6,40 @@
     font-family: 'Homemade Apple', cursive;
 }
 
+.contenu_css
+{
+    display: none;
+	background-color: #fcfcfc;
+}
+
+.offres_entete
+{
+    text-align: center;
+    height: 150px;
+}
+
+.f_tags
+{
+    display: none;
+}
+
+.p-offres
+{
+    height: ;
+}
+
+.display-none
+{
+    display: none;
+}
+
+.card-offres
+{
+    padding-right:5%;
+    padding-left: 10%;
+    padding-bottom: 10%;
+    width: 98%;
+}
 
 @media screen and (max-width: 768px) {
       .section_services_image, .blop, .counter, .main_joinus_area, .tag, .logo_footer, video {
@@ -25,12 +59,13 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-position: bottom;
+    background-position: top;
 }
 
 .section_recrutement_image
 {
     height: 350px;
+    margin-top: -20px;
     background-image: url(images/pexels-photo-796602.jpeg);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -170,9 +205,36 @@ h4
     margin-top: ;
 }
 
+.fa-check
+{
+    color: #4267b2;
+}
+
+.salaire_profil
+{
+    font-size: 15px;
+    font-style: oblique;
+}
+
+.required
+{
+    color: red;
+}
+
+.p-form-contact
+{
+    padding-left: 30px;
+}
+
+.text-lowercase
+{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
 .cardjoin
 {
-    width: 50%;
+    width: 60%;
     margin:auto;
     padding: 5px;
     margin-top: 50px;

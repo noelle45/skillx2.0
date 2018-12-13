@@ -40,7 +40,7 @@
 <!--Content for large and medium screens-->
 <div class="navbar-desktop">
 <!--Navbar Brand-->
-<a class="navbar-brand" href="#home"><img class="logo" src="images/petit-logo-skillx-slogan.png" alt="logo"/></a>
+<a class="navbar-brand" href="index.html"><img class="logo" src="images/cropped-2-logo-skillx-slogan.png" alt="logo" height="80px"/></a>
 <!--Links-->
 <ul class="nav navbar-nav pull-right hidden-md-down text-uppercase">
 <li class="nav-item">
@@ -111,24 +111,26 @@ Join us
 <div class="single_f_widget_text f_reatures">
 <ul>
 <li><i class="fa fa-check" style="color:  #4267b2"></i> SkillX <br> &nbsp; &nbsp; &nbsp;1240 rue Albert Camus<br>&nbsp; &nbsp; &nbsp;59230 SAINT AMAND LES EAUX</li><br>
-<li><i class="fa fa-check" style="color:  #4267b2"></i> Tél. </li><br>
-<li><i class="fa fa-check" style="color:  #4267b2"></i><a href="mailto:hello@skillx.fr"> hello@skillx.fr</a></li>
+<li><i class="fa fa-check"></i> Tél. 06 28 69 27 52</li><br>
+<li><i class="fa fa-check"></i><a href="mailto:hello@skillx.fr"> hello@skillx.fr</a></li>
 </ul>
 </div>
 </div>    
 </div>
 <div class="col-md-4">
 <form method="post" action="traitement.php" class="mb-5 ml-5">
-<p style="padding-left: 30px">Votre nom</p>
+    <p class="p-form-contact">Objet de votre message<span class="required">*</span></p>
+<input type="text" name="subject" id="subject" size="30" maxlength="50" value="Demande d'information" required/><br/><br/>
+<p class="p-form-contact">Votre nom<span class="required">*</span></p>
 <input type="text" name="nom" id="nom" size="30" maxlength="50" required /><br/><br/>
-<p style="padding-left: 30px">Prénom</p>
+<p class="p-form-contact">Prénom<span class="required">*</span></p>
 <input type="text" name="prenom" id="prenom" size="30" maxlength="50" required /><br/><br/>
-<p style="padding-left: 30px">N° de téléphone</p>
+<p class="p-form-contact">N° de téléphone<span class="required">*</span></p>
 <input type="text" name="tel" id="telephone" size="30" maxlength="50" required /><br/><br/>
-<p style="padding-left: 30px">Adresse e-mail</p>
+<p class="p-form-contact">Adresse e-mail<span class="required">*</span></p>
 <input type="text" name="email" id="email" size="30" maxlength="50" required /><br/><br/>
-<p style="padding-left: 30px">Votre message</p>
-<textarea class="form-control" id="exampleFormControlTextarea1" rows="20"></textarea>					
+<p class="p-form-contact">Votre message<span class="required">*</span></p>
+<textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="20" required></textarea>					
 <button type="submit" class="btn btn-danger">Envoyer</button>
 </form>
 <br/>
@@ -141,45 +143,79 @@ Join us
 
 <!-- FOOTER -->
 <section id="footer" class="footer">
-<div id="contact" class="contact"> </div>
 <div class="container">
 <div class="row">
 <div class="main_footer_area white-text">
     
 <!-- LOGO + RESEAUX SOCIAUX -->
+<div class="rox w-100">
+<img style="margin-top: 20px;" src="images/cropped-2-logo-skillx-slogan.png" alt="logo" height="80px"/>
+
+</div>
 <div class="col-md-4">
 <div class="single_f_widget wow fadeInUp logo_footer">
-<img style="margin-top: 20px;" src="images/logo-argente-socle.png" alt="logo"/>
 <div class="single_f_widget_text">
 <div class="socail_f_widget">
+<h4 class="text-lowercase">NOUS SUIVRE</h4>
 <a href="#!" ><i class="fa fa-facebook"></i></a>
-<a href="#!" ><i class="fa fa-google-plus"></i></a>
 <a href="#!" ><i class="fa fa-twitter"></i></a>
 <a href="#!" ><i class="fa fa-linkedin"></i></a>
 </div>
 </div>
+<h4 class="text-lowercase">NOUS CONTACTER</h4>
+<i class="fa fa-check"></i> Tél. 06 28 69 27 52<br>
+<i class="fa fa-check"></i><a href="mailto:hello@skillx.fr" style="color:#fff"> hello@skillx.fr</a>
 </div>
+</div>
+    
+<div class="col-md-4">
+<div class="single_f_widget wow fadeInUp logo_footer">
+<div class="single_f_widget_text">
+<div class="socail_f_widget">
+<h4 class="text-lowercase">NOUS TROUVER</h4>
+<i class="fa fa-check">
+</i> SkillX <br> &nbsp; &nbsp; &nbsp;1240 rue Albert Camus<br>
+    &nbsp; &nbsp; &nbsp;59230 SAINT AMAND LES EAUX
+</div>
+</div>
+</div>
+</div>   
+   
+<div class="col-md-4">
+<div class="single_f_widget wow fadeInUp logo_footer">
+<div class="single_f_widget_text">
+<div class="socail_f_widget">
+<h4 class="text-lowercase">PLAN DU SITE</h4>
+<i class="fa fa-check"> <a href="#" style="color:#fff"> Accueil </a></i><br/>
+<i class="fa fa-check"> <a href="index.html#services" style="color:#fff"> Services </a></i><br/>
+<i class="fa fa-check"> <a href="index.html#Nos valeurs" style="color:#fff"> Nos valeurs </a></i><br/>
+<i class="fa fa-check"> <a href="index.html#team" style="color:#fff"> Team </a></i><br/>
+<i class="fa fa-check"> <a href="index.html#joinus" style="color:#fff"> Rejoins-nous </a></i><br/>
+<i class="fa fa-check"> <a href="recrutement.html" style="color:#fff"> Recrutement </a></i><br/>
+<i class="fa fa-check"> <a href="contact.html" style="color:#fff"> Contact </a></i><br/>
+</div>    
+</div> 
+</div>
+</div> 
+
 </div>
 <div class="col-md-6">
 <div class="single_f_widget m-t-3 wow fadeInUp">
-<h4 class="text-lowercase">Tags</h4>
+<h4 class="text-lowercase display-none">Tags</h4>
 <div class="single_f_widget_text f_tags">
 <a href="#!">Expertise</a>
 <a href="#!">Block chain</a>
 <a href="#!">crypto actifs</a>
-<a href="#!">Evangelist</a>
-<a href="#!">Conseil</a>
-<a href="#!">Stratégie</a>
+<a href="#!">IAM</a>
+<a href="#!">Sécurité informatique</a>
 <a href="#!">Professionel</a>
-<a href="#!">Gestion</a>
-<a href="#!">Projets</a>
+<a href="#!">Gestion de projet</a>
 </div>
 </div>
 </div>
 </div><br><br>
 <!-- COORDONNES -->
 </div> <!-- // MAIN FOOTER -->
-</div> <!-- // ROW -->
 
 <div class="main_coppyright">
 <div class="container">
