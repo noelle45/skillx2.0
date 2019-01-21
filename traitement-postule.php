@@ -7,9 +7,9 @@
 </head>
 
 <?php
-    $destinataire = 'monge.noellej@gmail.com';
+    $destinataire = 'olivier.andoh@gmail.com';
     // Pour les champs $expediteur / $copie / $destinataire, séparer par une virgule s'il y a plusieurs adresses
-    $expediteur = $_POST['email'];
+    $expediteur = 'no-reply@skillx.fr';
      
     $objet = $_POST['subject'];
      
